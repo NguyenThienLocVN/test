@@ -1,0 +1,44 @@
+header { display: flex; justify-content: space-between; }
+.container { width: 80%; margin: auto;}
+a { color: #000; }
+
+.menu-top { display: flex; list-style-type: none; width: 50%; justify-content: flex-end;  }
+.menu-top a { text-decoration: none; color: black; padding: 20px 10px; display: block; }
+.menu-top a:hover { color: aqua; }
+ul, li { margin: 0; padding: 0; }
+
+/* Banner */
+.banner { background: #cecece; display: flex; justify-content: center; align-items: center; }
+.banner-text h2 { font-size: 50px; font-weight: 400; }
+.banner-text button { background: #000; color: #fff; border: none; padding: 15px 30px; }
+
+/* Services */
+.services { display: flex; justify-content: space-between; margin-top: 50px; }
+.services .item { width: 24%; display: flex; }
+.services h3 { margin: 0; }
+.services i { color: #5ba2ff; }
+.services p { color: gray; }
+
+/* Mobile products */
+.mobile-products .title { display: flex; justify-content: space-between; align-items: center; }
+.mobile-products .product-list { display: flex; justify-content: space-between; }
+.mobile-products .product-info { display: flex; justify-content: space-between; align-items: center; }
+.mobile-products .product-info span { color: #5ba2ff; }
+
+/* Sale Banner */
+.sale-banner { background: #f4f4f4; }
+.sale-banner .container { display: flex; align-items: center; justify-content: space-between; }
+.sale-banner h3 { font-size: 60px; font-weight: 400; }
+
+/* Latest Posts */
+.latest-posts { margin: 100px auto; }
+.latest-posts .title { display: flex; align-items: center; justify-content: space-between; } 
+.latest-posts .list-post { display: flex; justify-content: space-between; }
+.latest-posts .list-post .item { width: 32%; }
+.latest-posts .list-post .item img { width: 100%; }
+.latest-posts .list-post .item h6 { margin: 0; font-size: 22px; font-weight: 500; }
+
+/* Insta */
+.insta h2 { text-align: center; margin-bottom: 30px; }
+.insta .list-image { display: flex; justify-content: space-between; }
+.insta .list-image img { width: 19%; }
